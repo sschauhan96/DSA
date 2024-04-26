@@ -1,5 +1,3 @@
-package day3.extras;
-
 import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.NoSuchElementException;

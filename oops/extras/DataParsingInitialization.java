@@ -1,5 +1,3 @@
-package day3.extras;
-
 public class DataParsingInitialization {
     public static void main(String[] args) {
         // Student1 s = new Student1();
