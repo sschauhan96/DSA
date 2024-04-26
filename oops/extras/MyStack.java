@@ -6,35 +6,6 @@ import java.util.NoSuchElementException;
 import java.util.StringJoiner;
 
 public class MyStack {
-    public static void main(String[] args) {
-        MyStack stack = new MyStack();
-        System.out.println(stack.top);
-        stack.display();
-        stack.push(5);
-        stack.display();
-        System.out.println(stack.top);
-        System.out.println("============");
-        System.out.println(stack.size());
-        for (int i = 0; i < 14; i++) {
-            stack.push(i);
-        }
-        stack.display();
-        System.out.println(stack.top);
-        System.out.println(stack.size());
-
-        System.out.println("============");
-        System.out.println(stack.size());
-        for (int i = 0; i < 14; i++) {
-            stack.push(i * 5);
-        }
-        stack.display();
-        System.out.println(stack.top);
-        System.out.println(stack.size());
-        System.out.println("============");
-        System.out.println(stack.pop());
-        System.out.println(stack.size());
-        stack.display();
-    }
 
     int[] data;
     int top;
